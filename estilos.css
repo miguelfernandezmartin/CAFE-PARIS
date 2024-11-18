@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+body {
+    background-image: url(images/tazacafe.jpg);
+    background-size: cover;
+}
+#logocafe {
+    border-radius: 50%;
+    width: 10%;
+}
+#contenedor-logo {
+    text-align: center;
+}
+h1 {
+    font-family: Parisienne;
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+}
+#eslogan {
+    font-family: "Caveat";
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    color: cornsilk;
+    border: solid cornsilk 2px;
+    font-weight: 40%;
+    width: 40%;
+    margin: auto;
+}
+h2 {
+    color: #FFE4C4;
+    font-family: Pacifico;
+}
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Pacifico;
+}
+a:link {
+    color: white;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    color: darkgoldenrod;
+}
+.texto-normal {
+    font-family: Satisfy;
+    font-size: 1.2em;
+    color: #FFE4C4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+}
+ul,li {
+    color: white;
+}
+.categoria {
+    background-color: darkgoldenrod;
+    border-collapse: collapse;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+table,td,th {
+    border: solid darkgoldenrod 3px;
+    border-collapse: collapse;
+    vertical-align: center;
+    width: 50%;
+    padding: 20px;
+}
+table {
+    margin: auto;
+    background-color: cornsilk;
+    font-family: Satisfy;
+    size: 1.5em;
+    text-align: center;
+}
+.fotocarta {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+form {
+    border: solid darkgoldenrod 2px;
+    border-radius: 20px;
+    width: 50%;
+    text-align: left;
+    padding: 30px;
+    background-color: black;
+    margin: auto;
+}
+label {
+    font-family: Caveat;
+    color: cornsilk;
+    size: 1.5em;
+}
+div {
+    text-align: center;
+}
